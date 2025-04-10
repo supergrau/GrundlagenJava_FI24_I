@@ -46,5 +46,17 @@ public class Operators {
         System.out.println(bit1 & bit2);
         System.out.println(bit1 | bit2);
         System.out.println(bit1 ^ bit2);
+
+        System.out.println(Long.MAX_VALUE);
+
+        // Eigenartige Zuweisungen:
+        //short  aShort  = 2343434;         // ungültig
+        //long   aLong   = 1234_5678_5678;  // ungültig
+        int    aInt    = 2244_______2424; // richtig
+        double aDouble = 2D;              // richtig
+        //double anD     = 2.0_0_0_0_D;     // ungültig
+        float  aFloat  = 2.000000000F;    // richtig
+        float  anF     = 02.0F;           // richtig
+
     }
 }
