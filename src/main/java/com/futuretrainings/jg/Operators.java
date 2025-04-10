@@ -58,5 +58,19 @@ public class Operators {
         float  aFloat  = 2.000000000F;    // richtig
         float  anF     = 02.0F;           // richtig
 
+        // Verbundoperatoren
+        // += -= *= /=
+        aInt += 3;
+        System.out.println(aInt);
+
+        aInt += 5 + 2;  // aInt = aInt + 5 + 2
+        System.out.println(aInt);
+
+        // Plus-Operator bei Strings
+        System.out.println(1 + 2 + "Text");
+        System.out.println("Text" + 1 + 2);
+        System.out.println("Text" + 1.1 + 2.3);
+
+
     }
 }
