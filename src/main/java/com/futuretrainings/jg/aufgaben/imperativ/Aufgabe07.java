@@ -9,7 +9,7 @@ public class Aufgabe07 {
         double zahl1, zahl2, zahl3;
         double min, max;
         BufferedReader einlesen  = new BufferedReader(new InputStreamReader(System.in));
-
+        
         System.out.println("Bitte die erste Zahl eingeben: ");
         zahl1 = Double.parseDouble(einlesen.readLine());
 

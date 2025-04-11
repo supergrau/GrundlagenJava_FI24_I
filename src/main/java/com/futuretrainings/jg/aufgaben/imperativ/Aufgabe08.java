@@ -1,5 +1,6 @@
 package com.futuretrainings.jg.aufgaben.imperativ;
 
+
 public class Aufgabe08 {
     public static void main(String[] args) {
         int i, j;
@@ -11,7 +12,7 @@ public class Aufgabe08 {
             System.out.println();
         }
 
-        System.out.println();
+        System.out.println("\uD83D\uDE0E");
 
     }
 }
